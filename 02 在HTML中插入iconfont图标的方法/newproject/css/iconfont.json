@@ -1,0 +1,16 @@
+{
+  "id": "2869079",
+  "name": "newproject",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13102579",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    }
+  ]
+}
