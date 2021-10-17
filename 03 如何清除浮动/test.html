@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style type="text/CSS">
+    /* .clearfix:after{
+    clear: both;
+    content: "";
+    height: 0;
+    display: block;
+    } */
+    .parent{
+       overflow: hidden; 
+    }
+    .flt_l{
+        float: left;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(7, 146, 18);
+    }
+    .flt_r{
+        float: right;
+        width: 100px;
+        height: 270px;
+        background-color: rgb(112, 231, 128);
+    }
+    .parent{
+        border:4px coral solid;
+    } 
+        </style>
+</head>
+<body>
+    <div class="parent clearfix">
+        <div class="flt_l child"></div>
+        <div class="flt_r child"></div>
+    </div>
+    清除浮动后的div内文字 
+    <p>清除浮动后的p元素内容</p>
+</body>
+</html>
+
+
+<!-- <style type="text/CSS">
+    .clearfix:after{
+        clear: both;
+        content: "";
+        height: 0;
+        display: block;
+    }
+    .flt_l{
+        float: left;
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+    .flt_r{
+        float: right;
+        width: 100px;
+        height: 270px;
+        background-color: cadetblue;
+    }
+    .parent{
+        
+        border:4px coral solid;
+    }
+    </style> -->
